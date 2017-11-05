@@ -45,7 +45,8 @@
 
 class Adafruit_PWMServoDriver {
  public:
-  Adafruit_PWMServoDriver(uint8_t addr = 0x40);
+  //Adafruit_PWMServoDriver(uint8_t addr = 0x40);
+  Adafruit_PWMServoDriver(uint8_t addr = 0x6A);
   void begin(void);
   void reset(void);
   void setPWMFreq(float freq);
